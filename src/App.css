@@ -58,5 +58,10 @@ font-family: 'Zilla Slab', serif;
   font-family: 'Quicksand', sans-serif;
  padding-left: 0%;
  font-size: 1.5rem;
+letter-spacing: 2px;
+}
 
+.portfolio-container{
+  width:90%;
+  margin-left: 0%;
 }

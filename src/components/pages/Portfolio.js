@@ -1,25 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Image from 'react-bootstrap/Image';
+import projects from "./projects.json";
 
-function About(){
-    return(<main id="about" className="container">
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 
-        <Container fluid className="main-container" >
-            <h2 className="page-title">About Me</h2>
-        <Row>
-        <Col xs={6} md={4}>
-          <Image className="img-fluid" src={process.env.PUBLIC_URL+"/Assets/female stock image.jpg"} rounded />
-        </Col>
-          <Col xs={6} md={4}>
-            <p>I like long walks on the beach</p>
-          </Col>
-        </Row>
-      </Container>
+function Portfolio() {
+    // const [projects] = useState(projects)
+    return (<main id="about" className="container">
+
+        <Container fluid className="container" >
+            <h2 className="page-title">Portfolio</h2>
+            <main className="d-flex flex-wrap justify-content-evenly portfolio-container ">
+                {projects.map((element, key) => {
+                    return (
+                        <Card className="m-2 p-3" key={key} style={{ width: '18rem' }}>
+                            <Card.Img variant="top" src={process.env.PUBLIC_URL + element.screenshot} />
+                            <Card.Body>
+                                <Card.Title>{element.title}</Card.Title>
+                                <Card.Text>
+                                    {element.description}
+                                </Card.Text>
+                                <Button className="btn m-1 p-1" variant="primary"><a className="download text-white" href={element.github}>Github</a></Button>
+                                <Button className="btn m-1 p-1" variant="primary"><a className="download text-white" href={element.live}>Deployment</a></Button>
+                            </Card.Body>
+                        </Card>
+                    )
+                })}
+            </main>
+        </Container>
     </main>
     )
 }
 
-export default About;
+export default Portfolio;

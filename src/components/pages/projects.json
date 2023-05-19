@@ -1,0 +1,30 @@
+[
+    {
+        "title":"Code Refactor",
+        "description":"Using semantic tags",
+        "screenshot":"/projects/coderefactor.png",
+        "github":"https://github.com/jancypp/week1-challenge",
+        "live":"https://jancypp.github.io/week1-challenge/"
+    },
+    {
+        "title":"Code Refactor",
+        "description":"Using semantic tags",
+        "screenshot":"/projects/coderefactor.jpg",
+        "github":"https://github.com/jancypp/week1-challenge",
+        "live":"https://jancypp.github.io/week1-challenge/"
+    },
+    {
+        "title":"Code Refactor",
+        "description":"Using semantic tags",
+        "screenshot":"/projects/coderefactor.jpg",
+        "github":"https://github.com/jancypp/week1-challenge",
+        "live":"https://jancypp.github.io/week1-challenge/"
+    },
+    {
+        "title":"Code Refactor - final",
+        "description":"Using semantic tags",
+        "screenshot":"/projects/coderefactor.jpg",
+        "github":"https://github.com/jancypp/week1-challenge",
+        "live":"https://jancypp.github.io/week1-challenge/"
+    }
+]
