@@ -3,8 +3,9 @@ import React from 'react';
 import Nav from 'react-bootstrap/Nav';
 
 function NavTabs({ currentPage, handlePageChange }) {
-  return (
-    <Nav defaultActiveKey="/about" as="ul">
+  return (<header>
+    <h1 className='name'>Jancy Polzkill</h1>
+    <Nav  as="ul">
       <Nav.Item as="li">
         <Nav.Link  href="#about"
           onClick={() => handlePageChange('About')}>About</Nav.Link>
@@ -22,6 +23,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange('Contact')}>Contact</Nav.Link>
       </Nav.Item>
     </Nav>
+    </header>
   );
 }
 

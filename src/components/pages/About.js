@@ -5,8 +5,9 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 
 function About(){
-    return(
-        <Container fluid className="main-container" id="about">
+    return(<main id="about" className="container">
+
+        <Container fluid className="main-container" >
             <h2 className="page-title">About Me</h2>
         <Row>
         <Col xs={6} md={4}>
@@ -17,6 +18,7 @@ function About(){
           </Col>
         </Row>
       </Container>
+    </main>
     )
 }
 

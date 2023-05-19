@@ -10,4 +10,31 @@
   font-style: italic;
   letter-spacing: 3px;
   width:90%;
+  font-size: 2.5rem;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 1%;
+  padding-bottom:1%;
 }
+
+.name{
+  font-size: 2.5rem;
+  width:30%;
+  font-family: 'Rubik', sans-serif;
+  color: rgb(37, 37, 128);
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Fira Sans', sans-serif;
+}
+/*
+font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Quicksand', sans-serif;
+
+
+font-family: 'Wix Madefor Text', sans-serif;
+font-family: 'Zilla Slab', serif;
+*/
