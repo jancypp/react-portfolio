@@ -1,23 +1,47 @@
 import React from "react";
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Image from 'react-bootstrap/Image';
 
-function About(){
-    return(<main id="about" className="container">
 
-        <Container fluid className="main-container" >
-            <h2 className="page-title">About Me</h2>
-        <Row>
-        <Col xs={6} md={4}>
-          <Image className="img-fluid" src={process.env.PUBLIC_URL+"/Assets/female stock image.jpg"} rounded />
-        </Col>
-          <Col xs={6} md={4}>
-            <p>I like long walks on the beach</p>
-          </Col>
-        </Row>
-      </Container>
+import Accordion from 'react-bootstrap/Accordion';
+function About() {
+    return (<main id="about" className="container">
+
+        <Container fluid className="container" >
+            <h2 className="page-title">Resume</h2>
+
+
+            <Accordion className="accordion-layout">
+                <Accordion.Item eventKey="0">
+                    <Accordion.Header>Front-end Proficiencies</Accordion.Header>
+                    <Accordion.Body>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>JQuery</li>
+                            <li>responsive design</li>
+                            <li>React</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                    </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="1">
+                    <Accordion.Header>Back-end Proficiencies</Accordion.Header>
+                    <Accordion.Body>
+                    <ul>
+                            <li>APIs</li>
+                            <li>Node</li>
+                            <li>Express</li>
+                            <li>MySQL, Sequelize</li>
+                            <li>MongoDB, Mongoose</li>
+                            <li>REST</li>
+                            <li>GraphQL</li>
+                        </ul>
+                    </Accordion.Body>
+                </Accordion.Item>
+            </Accordion>
+    <h3 className="text-center"><a className="download" href={process.env.PUBLIC_URL+"/Resume/Resume.pdf"} download>Download Resume</a></h3>
+        </Container>
     </main>
     )
 }

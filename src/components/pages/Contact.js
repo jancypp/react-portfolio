@@ -1,25 +1,20 @@
 import React from "react";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Image from 'react-bootstrap/Image';
 
-function About(){
+
+
+function Contact(){
     return(<main id="about" className="container">
 
-        <Container fluid className="main-container" >
-            <h2 className="page-title">About Me</h2>
-        <Row>
-        <Col xs={6} md={4}>
-          <Image className="img-fluid" src={process.env.PUBLIC_URL+"/Assets/female stock image.jpg"} rounded />
-        </Col>
-          <Col xs={6} md={4}>
-            <p>I like long walks on the beach</p>
-          </Col>
-        </Row>
+        <Container fluid className="container" >
+            <h2 className="page-title">Contact</h2>
+    
+        <iframe title="contact-form"src="https://docs.google.com/forms/d/e/1FAIpQLScmLAN2eHE26KlhgM1PbprR2k0pUfcOVPHlVMpKV5iaTGyqUg/viewform?embedded=true" width="640" height="689" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+     
       </Container>
     </main>
     )
 }
 
-export default About;
+export default Contact;
