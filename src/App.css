@@ -36,9 +36,29 @@ iframe{
   height: 70vh;
   padding-left: 1%;
 }
+p{
+  letter-spacing: 5px;
+  word-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  color: black;
+  font-family: 'Wix Madefor Text', sans-serif;
+  font-size: 1.5rem;
+  padding: 3%;
+}
+.about-text{
+  display:flex;
+  justify-content: center;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  width:100%;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
 /*
-font-family: 'IBM Plex Sans', sans-serif;
-font-family: 'Inter', sans-serif;
 
 
 

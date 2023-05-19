@@ -35,6 +35,9 @@ export default function PortfolioContainer() {
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
+      <footer>
+        &copy; Jancy Polzkill, 2023
+      </footer>
     </div>
   );
 }
