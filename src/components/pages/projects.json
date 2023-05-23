@@ -1,30 +1,44 @@
 [
     {
-        "title":"Code Refactor",
+        "title":"HTML Code Refactor",
         "description":"Using semantic tags",
         "screenshot":"/projects/coderefactor.png",
         "github":"https://github.com/jancypp/week1-challenge",
         "live":"https://jancypp.github.io/week1-challenge/"
     },
     {
-        "title":"Code Refactor",
-        "description":"Using semantic tags",
-        "screenshot":"/projects/coderefactor.jpg",
-        "github":"https://github.com/jancypp/week1-challenge",
-        "live":"https://jancypp.github.io/week1-challenge/"
+        "title":"CSS Styled Portfolio",
+        "description":"Using CSS Styling",
+        "screenshot":"/projects/CSSstyledportfolio.png",
+        "github":"https://github.com/jancypp/week2-Advanced-CSS-Challenge-ProfessionalPortfolio",
+        "live":"https://jancypp.github.io/week2-Advanced-CSS-Challenge-ProfessionalPortfolio/"
     },
     {
-        "title":"Code Refactor",
-        "description":"Using semantic tags",
-        "screenshot":"/projects/coderefactor.jpg",
-        "github":"https://github.com/jancypp/week1-challenge",
-        "live":"https://jancypp.github.io/week1-challenge/"
+        "title":"JavaScript Password Generator",
+        "description":"Using JavaScript",
+        "screenshot":"/projects/javascriptpwgenerator.png",
+        "github":"https://github.com/jancypp/week3-javascript-password-generator",
+        "live":"https://jancypp.github.io/week3-javascript-password-generator/"
     },
     {
-        "title":"Code Refactor - final",
-        "description":"Using semantic tags",
-        "screenshot":"/projects/coderefactor.jpg",
-        "github":"https://github.com/jancypp/week1-challenge",
-        "live":"https://jancypp.github.io/week1-challenge/"
+        "title":"API Day Planner",
+        "description":"Using APIs and jquery",
+        "screenshot":"/projects/JSdayplanner.png",
+        "github":"https://github.com/jancypp/day-planner",
+        "live":"https://jancypp.github.io/day-planner/"
+    },
+    {
+        "title":"Third-party Weather Outlook",
+        "description":"Third-party APIs",
+        "screenshot":"/projects/APIweatheroutlook.png",
+        "github":"https://github.com/jancypp/weather-outlook",
+        "live":"https://jancypp.github.io/weather-outlook/"
+    },
+    {
+        "title":"Concert Connnection",
+        "description":"Front-end and Third-party APIs",
+        "screenshot":"/projects/concertconnection.png",
+        "github":"https://github.com/ionscion/miniature-garbanzo",
+        "live":"https://ionscion.github.io/miniature-garbanzo/"
     }
 ]
